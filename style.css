@@ -104,3 +104,38 @@ body{
    margin-top: 10px;
    display: none;
 }
+
+/* Styles for smaller screens (mobile phones) */
+@media (max-width: 600px) {
+   .search {
+     text-align: center;
+   }
+   
+   .weather {
+     text-align: center;
+   }
+   
+   .details {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+   }
+   
+   .col {
+     margin: 10px;
+   }
+
+   .search button{
+      width: 50px;
+      height: 50px;
+   }
+
+   .search button img{
+      width: 14px;
+   }
+
+   .search input{
+      width: 50px;
+      height: 50px;
+   }
+ }
