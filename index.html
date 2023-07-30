@@ -3,40 +3,56 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" integrity="sha512-Jp3oCtkKo8j/WRrHq2jrYMtJogclQybtR6+81arCLTO/TvWj3oaF4NkZQs2bTqWJ8An8L2MLKKfvsn3H8vZP1g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.min.css" integrity="sha512-13RM4Q4wPLiDEFNxKQbZMoyM3qR3eIsTYoXy6hJlqWmPzFCBLyxG3LGx/48N+sTcLxvN3IoThkZYxo3yuaGSvw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    <link rel="stylesheet" href="style.css">
    <title>Document</title>
 </head>
 <body>
-  <div class="wrapper">
-   <div class="search">
-      <input type="text" placeholder="Enter City Name" spellcheck="false">
-      <button><img src="images/search.png" alt="Search-City"></button>
-   </div>
-   <div class="error">
-      <p>Invalid City!!!	&#129300;</p>
-   </div>
-   <div class="weather">
-      <img src="images/rain.png" alt="Rain" class="weather-icon">
-      <h1 class="temp">22°C</h1>
-      <h2 class="city">New york</h2>
-      <div class="details">
-         <div class="col">
-            <img src="images/humidity.png" alt="">
-            <div>
-               <p class="humidity">50%</p>
-               <p>Humidity</p>
-            </div>
-         </div>
-         <div class="col">
-            <img src="images/wind.png" alt="">
-            <div>
-               <p class="wind">4.67</p>
-               <p>Wind speed</p>
-            </div>
-         </div>
+   <div class="header">
+      <div class="logo">
+         <img src="images/logo2.jpeg" alt="Weather-logo">
       </div>
+      <h1>Weather Spot</h1>
    </div>
-  </div>
+   <div class="container">
+      <div class="wrapper">
+         <div class="search">
+            <input type="text" placeholder="Enter City Name" spellcheck="false">
+            <button><img src="images/search.png" alt="Search-City"></button>
+         </div>
+         <div class="error">
+            <p>Invalid City!!!	&#129300;</p>
+         </div>
+         <div class="weather">
+            <img src="images/rain.png" alt="Rain" class="weather-icon">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">New york</h2>
+            <div class="details">
+               <div class="col">
+                  <img src="images/humidity.png" alt="">
+                  <div>
+                     <p class="humidity">50%</p>
+                     <p>Humidity</p>
+                  </div>
+               </div>
+               <div class="col">
+                  <img src="images/wind.png" alt="">
+                  <div>
+                     <p class="wind">4.67</p>
+                     <p>Wind speed</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+        </div>
+   </div>
+  <div class="footer">
+   <p>Emmy-Gretta &copy; 2023</p>
+   <div class="git-icon">
+      <a href="https://github.com/Emmy-Gretta" target="_blank"><i class="ri-github-line"></i></a>
+   </div>
+</div>
    <script src="script.js"></script>
 </body>
 </html>
